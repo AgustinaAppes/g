@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Datos de Bootstrap</title>
+    <link rel="shortcut icon" href="icons8-oreja.ico" type="image/x-icon">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-sm   navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="file:///C:/Users/54376/Desktop/plataforma%205/Clase%201%20-%20html/Acerca%20de%20nosotros.html">Acerca de nosotros</a>
+            </li>
+            <li class="nav-item dropdown dmenu">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Indice
+            </a>
+            <div class="dropdown-menu sm-menu">
+              <a class="dropdown-item" href="https://lively-lily-484d5a.netlify.app/#ventajas">Ventajas de Bootstrap</a>
+              <a class="dropdown-item" href="https://lively-lily-484d5a.netlify.app/#componentes">Componentes principales</a>
+              <a class="dropdown-item" href="https://lively-lily-484d5a.netlify.app/#video">Aprender mas</a>
+            </div>
+          </li>
+        </ul>
+          </div>
+        </div>
+      </nav>
+
+    
+
+    <div class="row">
+
+        <div class="col-8" style="text-align-last: right;">
+            <h1 class="" style="font-family: cursive; text-align: center">¿Qué es Bootstrap?</h1>
+            <center><a href="https://getbootstrap.com/" target="_blank"><img src="bootstrap.jpg" alt="" style="width: 380px;"></a></center> <br>
+        </div>
+
+        <div class="row col-4" style="padding-left: 3%;">
+
+            <div class="">
+                <a onclick="mostrar()" href="#">
+                    <img id="eye" style="display: none;" src="ojo abierto.png" alt="">
+                </a> 
+            </div>
+            
+            <div class="">
+                <a onclick="ocultar()" href="#">
+                    <img id="eye_closed" src="icons8-ojo-cerrado-64.png" alt=""> 
+                </a>
+            </div>
+            
+
+            <div id="oculto" class="card " style="display: none; padding-left: 2%; border: solid #fa0ada;">
+                <p style="font-family: cursive;"> <b>Este es el mensaje secreto del punto 8.</b> </p>
+                <img src="ouch4.png" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <p style="text-align: center; font-family: 'Franklin Gothic Medium';"> Bootstrap es una de las librerias mas populares para el diseño y la maquetación web.</p>
+    <p style="text-align: center; font-family: 'Franklin Gothic Medium';">Incluye plantillas de diseño basadas en HTML y CSS para la realización de formularios, botones, tablas, navegación… así como complementos de JavaScript opcionales para mejorar el comportamiento de estos elementos. Esto te permite conseguir una web responsive en los navegadores modernos actuales invirtiendo el menor tiempo posible en maquetación.</p><br>
+    <div id="ventajas">
+        <h2 style="text-align: center; font-family: fantasy;">Ventajas de Bootstrap</h2> <br>
+        <ul>
+            <li><b>Fácil de usar:</b>  si tienes conocimientos básicos de HTML y CSS puede comenzar a usar Bootstrap cuando quieras.</li>
+            <li><b>Responsive: </b> gracias a sus CSS tu diseño se adaptará a cualquier dispositivo.</li>
+            <li><b>Multinavegador:</b> Bootstrap 4 es compatible con todos los navegadores modernos (Chrome, Firefox, Internet Explorer 10+, Safari y Opera).</li>
+        </ul> <br>
+    </div>
+    <div id="componentes">
+        <h2 style="text-align: center; font-family: fantasy;">Componentes principales</h2> <br>
+        <ol>
+            <li><b>Grid</b> <br> El trabajo en cuadrícula es la propiedad más importante que tiene Bootstrap, ya que nos resuelve el problema de visionado de elementos en diferentes resoluciones y dispositivos. Grid permite definir comportamientos determinados a cada espacio y características de pantalla. Para solucionar el problema del reparto, Bootstrap divide la pantalla en una cuadrícula de 12 columnas. Para que después tú mismo puedas gestionar esas columnas según el tamaño de la pantalla en cuestión.</li>
+            <li><b>Navegación</b> <br> Un menú o barra de navegación es un encabezado que se coloca en la parte superior de la página.</li>
+            <li><b>Botones</b> <br> Los botones son uno de los elementos más importantes de tu web. Bootstrap por defecto te proporciona clases para realizar diferentes botones según su cometidos y estado: <br>
+                <ul>
+                    <li><b>Botones semánticos:</b> botones con significado por sí mismo en su color. Rojo significa alerta, amarillo cuidado, etc.</li>
+                    <li><b>Botones contorneados:</b> perfectos para acciones secundarias.</li>
+                    <li><b>Botones con estado:</b> activado, desactivado, etc.</li>
+                    <li><b>Botones con tamaño:</b> grandes, pequeños, de bloque, etc.</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+
+    
+
+    <p style="text-align: center; font-family: cursive;"> Si querés aprender un poco más sobre Bootstrap te recomiendo que veas el siguiente video</p>
+    <center><img src="flecha.gif" alt=""></center>
+    <center><a target="_blank" id="video" href="https://www.youtube.com/watch?v=JDs45GmZWUo&ab_channel=UskoKruM2010"><p style="color: blue;">Bootstrap 5 para Principiantes (Tutorial desde 0): Cómo usar Bootstrap en tus aplicaciones web</p></a></center>
+    <center><img src="gracias.jpg" alt="" style="width: 203px;"></center>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+<script>
+
+    function mostrar() {
+        document.getElementById('eye').style.display ='none' ;
+        document.getElementById('eye_closed').style.display ='block' ;
+        document.getElementById('oculto').style.display ='none' ;
+    }
+    function ocultar() {
+        document.getElementById('eye').style.display ='block' ;
+        document.getElementById('eye_closed').style.display ='none' ;
+        document.getElementById('oculto').style.display ='block' ;
+    }
+
+</script>
+
+</html>
